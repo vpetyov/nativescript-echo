@@ -605,7 +605,7 @@ fastq@^1.6.0:
 faye-websocket@0.9.4:
   version "0.9.4"
   resolved "https://registry.npmjs.org/faye-websocket/-/faye-websocket-0.9.4.tgz"
-  integrity sha1-iFk0x57/sECVSeDAo4Ae0XpAza0= sha512-5i9HTcrJrCCcmztcjIHpt+eWwu89Ed66rNBf5LtTy69QHbP/mtvjOTGqiOR01QrSbfoT1EP0v4XXvydpJj0r9w==
+  integrity sha512-5i9HTcrJrCCcmztcjIHpt+eWwu89Ed66rNBf5LtTy69QHbP/mtvjOTGqiOR01QrSbfoT1EP0v4XXvydpJj0r9w==
   dependencies:
     websocket-driver ">=0.5.1"
 
@@ -708,9 +708,9 @@ has@^1.0.3:
     function-bind "^1.1.1"
 
 http-parser-js@>=0.5.1:
-  version "0.5.2"
-  resolved "https://registry.npmjs.org/http-parser-js/-/http-parser-js-0.5.2.tgz"
-  integrity sha512-opCO9ASqg5Wy2FNo7A0sxy71yGbbkJJXLdgMK04Tcypw9jr2MgWbyubb0+WdmDmGnFflO7fRbqbaihh/ENDlRQ==
+  version "0.5.8"
+  resolved "https://registry.npmjs.org/http-parser-js/-/http-parser-js-0.5.8.tgz"
+  integrity sha512-SGeBX54F94Wgu5RH3X5jsDtf4eHyRogWX1XGT3b4HuW3tQPM4AaBzoUji/4AAJNXCEOWZ5O0DgZmJw1947gD5Q==
 
 i@0.3.x:
   version "0.3.6"
@@ -901,6 +901,14 @@ mute-stream@~0.0.4:
   resolved "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.8.tgz"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
+nativescript-pusher-ns@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/nativescript-pusher-ns/-/nativescript-pusher-ns-1.0.0.tgz"
+  integrity sha512-PsCuu+EDzoJDztdu6ycNmRSVAnmGe8LQvgpEhe1wIZvNqK5dcQtmfmbRgeSW+yCjGQkVBozFKeOFgxFBtj5d0w==
+  dependencies:
+    "@nativescript/core" "^7.0.13"
+    pusher-js "4.2.2"
+
 "nativescript-socket.io@github:ipald/nativescript-socket.io":
   version "0.11.1"
   resolved "git+ssh://git@github.com/ipald/nativescript-socket.io.git#843d61f6fed2a1369ed6ae139f42c116ba09a980"
@@ -1025,13 +1033,6 @@ pusher-js@4.2.2:
   dependencies:
     faye-websocket "0.9.4"
     xmlhttprequest "^1.8.0"
-
-"pusher-nativescript@github:vpetyov/pusher-nativescript":
-  version "1.0.0"
-  resolved "git+ssh://git@github.com/vpetyov/pusher-nativescript.git#ef560be955239ad0da9d7e8f3abdf4cb63bfa6a2"
-  dependencies:
-    "@nativescript/core" "^7.0.13"
-    pusher-js "4.2.2"
 
 read@1.0.x:
   version "1.0.7"
@@ -1368,7 +1369,7 @@ write@1.0.3:
 xmlhttprequest@^1.8.0:
   version "1.8.0"
   resolved "https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz"
-  integrity sha1-Z/4HXFwk/vOfnWX197f+dRcZaPw= sha512-58Im/U0mlVBLM38NdZjHyhuMtCqa61469k2YP/AaPbvCoV9aQGUpbJBj1QRm2ytRiVQBD/fsw7L2bJGDVQswBA==
+  integrity sha512-58Im/U0mlVBLM38NdZjHyhuMtCqa61469k2YP/AaPbvCoV9aQGUpbJBj1QRm2ytRiVQBD/fsw7L2bJGDVQswBA==
 
 yallist@^4.0.0:
   version "4.0.0"

@@ -3,7 +3,7 @@ import {
     PusherChannel, PusherPrivateChannel, PusherPresenceChannel, PresenceChannel, PusherEncryptedPrivateChannel
 } from '../channel';
 
-import * as Pusher from 'pusher-nativescript';
+import * as Pusher from 'nativescript-pusher-ns';
 
 /**
  * This class creates a connector to Pusher.
