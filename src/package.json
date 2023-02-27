@@ -11,6 +11,7 @@
             "ios": "7.0.1"
         }
     },
+    "private": true ,
     "scripts": {
         "tsc": "npm i && tsc",
         "build": "npm run tsc && npm run build.native",
