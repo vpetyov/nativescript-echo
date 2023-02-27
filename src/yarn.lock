@@ -901,17 +901,18 @@ mute-stream@~0.0.4:
   resolved "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.8.tgz"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-nativescript-pusher-ns@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/nativescript-pusher-ns/-/nativescript-pusher-ns-1.0.0.tgz"
-  integrity sha512-PsCuu+EDzoJDztdu6ycNmRSVAnmGe8LQvgpEhe1wIZvNqK5dcQtmfmbRgeSW+yCjGQkVBozFKeOFgxFBtj5d0w==
+nativescript-pusher-ns@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/nativescript-pusher-ns/-/nativescript-pusher-ns-1.0.1.tgz"
+  integrity sha512-9kwguYfEcfVEKR6DAGM/dDZAzbOsE8piPYAPdcz/Zhew61OqYRrj5mRGYNon/09tiVYb525VLglHydiO9qMgKw==
   dependencies:
     "@nativescript/core" "^7.0.13"
     pusher-js "4.2.2"
 
-"nativescript-socket.io@github:ipald/nativescript-socket.io":
+nativescript-socketio-ns@^0.11.1:
   version "0.11.1"
-  resolved "git+ssh://git@github.com/ipald/nativescript-socket.io.git#843d61f6fed2a1369ed6ae139f42c116ba09a980"
+  resolved "https://registry.npmjs.org/nativescript-socketio-ns/-/nativescript-socketio-ns-0.11.1.tgz"
+  integrity sha512-VGqD2420ERt+D/GEZEIGl6hAFiFDkIgkHu0/vqteXup0DZlLtzm2vfv2WeUOqAcozeDl8l6ai5uGzXdmLsZESg==
 
 nativescript-websockets@*, nativescript-websockets@^1.5.6:
   version "1.5.6"

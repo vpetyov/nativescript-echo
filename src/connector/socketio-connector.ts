@@ -1,6 +1,6 @@
 import { Connector } from './connector';
 import { SocketIoChannel, SocketIoPrivateChannel, SocketIoPresenceChannel } from './../channel';
-import * as SocketIO from "nativescript-socket.io";
+import * as SocketIO from "nativescript-socketio-ns";
 import * as application from '@nativescript/core/application';
 
 /**
